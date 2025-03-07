@@ -12,9 +12,10 @@ function App() {
         <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 md:p-12 w-full max-w-3xl shadow-2xl border border-white/20">
           {/* Portfolio Coming Soon Banner */}
           <div className="mb-8 bg-white/20 rounded-lg p-4 backdrop-blur-sm text-center">
-            <div className="flex items-center justify-center space-x-3 text-white">
+            <div className="flex items-center justify-center space-x-3 text-white"
+                onClick={() => window.open('https://www.waamo.tech', '_blank')}>
               <Sparkles className="w-6 h-6 animate-pulse" />
-              <span className="font-medium text-xl">Portfolio Coming Soon</span>
+              <span className="font-medium text-xl">Portfolio Link 👉</span>
               <Sparkles className="w-6 h-6 animate-pulse" />
             </div>
           </div>
